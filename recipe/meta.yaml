@@ -1,5 +1,5 @@
 {% set name = "mypy_boto3_cloudformation" %}
-{% set version = "1.17.91" %}
+{% set version = "1.17.92" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-cloudformation-{{ version }}.tar.gz
-  sha256: 776eecf3ef351601d57695d3cecddfe3b53abe6f0ed5f3f120bd7d57430c64ba
+  sha256: e6e59d6bb56e0a9cfcee4270eddfdd12f449a6b672ec5a931422ce7813cbf01b
 
 build:
   number: 0
