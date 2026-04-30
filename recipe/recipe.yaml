@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mypy_boto3_cloudformation
-  version: "1.42.3"
+  version: "1.43.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 3bd3849bc89a371d4c368691535b320244ba00579cddd63bb58b73f28d70e510
+  sha256: 5be845bc3dc1b9cdbd8b6b071fad7c42d0221d4087ac0cc7c5b9dd219b324606
 
 build:
   number: 0
